@@ -1,0 +1,202 @@
+.container-fluid {
+  margin-top: -200px;
+}
+
+li.a {
+  list-style-type: none;
+}
+
+/*  thanh menu */
+/* pha hover dropdown-menu */
+
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+  background-color: #ffffff;
+}
+
+/*  hover rating */
+
+.checked {
+  color: orange;
+}
+
+.dropdown-btn:hover {
+  background-color: blue;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f8df00;
+}
+
+.dropbtn {
+  background-color: #f8df00;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color: rgb(255, 252, 228);
+}
+
+/*  rate */
+
+.dropdown-content {
+  font-family: Arial;
+  margin: 0 auto;
+  /* Center website */
+  width: 300px;
+  /* Max width */
+  padding: 20px;
+}
+
+/* Three column layout */
+
+.side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle {
+  margin-top: 10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+
+.bar-5 {
+  width: 60%;
+  height: 18px;
+  background-color: #f8df00;
+}
+
+.bar-4 {
+  width: 30%;
+  height: 18px;
+  background-color: #f8df00;
+}
+
+.bar-3 {
+  width: 10%;
+  height: 18px;
+  background-color: #f8df00;
+}
+
+.bar-2 {
+  width: 4%;
+  height: 18px;
+  background-color: #f8df00;
+}
+
+.bar-1 {
+  width: 15%;
+  height: 18px;
+  background-color: #f8df00;
+}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+
+@media (max-width: 400px) {
+  .side,
+  .middle {
+    width: 100%;
+  }
+
+  .right {
+    display: none;
+  }
+}
+
+/*  gia tien */
+
+.icon-money {
+  font-size: 30px;
+}
+
+.money-cent {
+  font-size: 20px;
+  text-decoration: line-through !important;
+}
+
+/*  pagination */
+
+.pagination {
+  float: expend;
+}
+
+/*   zoom image */
+
+* {
+  box-sizing: border-box;
+}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 150px;
+  height: 150px;
+}
+
+.img-zoom-result {
+  float: right;
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
+}
